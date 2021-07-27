@@ -1,0 +1,85 @@
+{
+    "gammaAccess": {
+        "url": "",
+        "token": ""
+    },
+    "repositories": [
+        {
+            "dataDir": "$WORKSPACE/data",
+            "repository": {
+                "uid": "1e7c8fcf80e873be870b48404def7de7",
+                "projectName": "Typescript",
+                "languages": [
+                    "TYPESCRIPT"
+                ],
+                "sources": {
+                    "baseDir": "$WORKSPACE",
+                    "exclusions": [
+                        "node_modules",
+                        ".min.js",
+                        "dist",
+                        "external",
+                        "assets",
+                        "gulp",
+                        "grunt",
+                        "libs",
+                        "-bundle.js",
+                        ".bundle.js",
+                        "swagger-ui",
+                        ".config.js",
+                        "-config.js",
+                        "UNKNOWN_FILE",
+                        ".git",
+                        ".ebextensions",
+                        "test",
+                        ".lib",
+                        ".library",
+                        ".zip",
+                        ".d.ts"
+                    ]
+                }
+            },
+            "settings": {
+                "additionalOptions": [],
+                "includePaths": []
+            },
+            "modules": {
+                "codeissues": [
+                    {
+                        "name": "gamma_generic",
+                        "enabled": false,
+                        "config": {
+                            "rules": [],
+                            "options": [
+                                {
+                                    "name": "reportDir",
+                                    "type": "upload",
+                                    "value": "",
+                                    "required": true
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "name": "tslint",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": []
+                        }
+                    }
+                ],
+                "relevance": [
+                    {
+                        "name": "relevance",
+                        "enabled": true,
+                        "config": {
+                            "rules": [],
+                            "options": []
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
